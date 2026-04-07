@@ -8,6 +8,10 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-image: url(../assets/images/captains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 aside {
@@ -34,6 +38,8 @@ button {
     padding: 12px 24px;
     border: 1px solid #000000;
     font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.313);
+    backdrop-filter: blur(0.1px);
 }
 
 .btn-primary {
@@ -44,9 +50,13 @@ button {
 h1 {
     font-size: 56px;
     font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.313);
+    backdrop-filter: blur(0.1px);
 }
 
 p {
     font-size: 18px;
     font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.313);
+    backdrop-filter: blur(0.1px);
 }
