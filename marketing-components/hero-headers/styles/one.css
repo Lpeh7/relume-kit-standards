@@ -9,7 +9,7 @@ main {
     justify-content: center;
     align-items: center;
 
-    background-image: url(../assets/images/captains.jpg);
+    background-image: url(../assets/images/zaraki-kenpachi3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -38,8 +38,17 @@ button {
     padding: 12px 24px;
     border: 1px solid #000000;
     font-size: 16px;
-    background-color: rgba(255, 255, 255, 0.313);
+    background-color: rgba(226, 203, 182, 0.801);
     backdrop-filter: blur(0.1px);
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+}
+
+.btn-primary:hover {
+    background-color: rgb(221, 105, 10);
+    color: black;
+    opacity: 0.9;
 }
 
 .btn-primary {
@@ -47,16 +56,23 @@ button {
     color: white;
 }
 
+.btn-secondary:hover {
+    background-color: rgb(255, 105, 10);
+    color: black;
+    opacity: 0.9;
+}
+
 h1 {
     font-size: 56px;
     font-weight: 700;
-    background-color: rgba(255, 255, 255, 0.313);
+    background-color: rgba(226, 212, 182, 0.621);
     backdrop-filter: blur(0.1px);
 }
 
 p {
     font-size: 18px;
     font-weight: 400;
-    background-color: rgba(255, 255, 255, 0.313);
+    font-style: oblique;
+    background-color: rgba(226, 212, 182, 0.621);
     backdrop-filter: blur(0.1px);
 }
