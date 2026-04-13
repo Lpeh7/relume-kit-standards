@@ -74,6 +74,18 @@ button>p {
     color: white;
 }
 
+.black-btn:hover {
+    background-color: rgb(221, 105, 10);
+    color: white;
+    opacity: 0.9;
+}
+
+.white-btn:hover {
+    background-color: rgb(221, 105, 10);
+    color: black;
+    opacity: 0.9;
+}
+
 /* HERO */
 
 main {
@@ -112,6 +124,12 @@ main {
     height: 81px;
 }
 
+button {
+    backdrop-filter: blur(px);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
 .first-button {
     border: 1px solid black;
     padding: 12px 24px;
@@ -119,11 +137,22 @@ main {
     color: white;
 }
 
+.first-button:hover {
+    background-color: rgb(221, 105, 10);
+    color: white;
+    opacity: 0.9;
+}
+
 .second-button {
     border: 1px solid black;
     padding: 12px 24px;
 }
 
+.second-button:hover {
+    background-color: rgb(221, 105, 10);
+    color: black;
+    opacity: 0.9;
+}
 .img-central {
     width: 100%;
     margin-top: 80px;
